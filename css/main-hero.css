@@ -1,0 +1,91 @@
+.main-hero {
+    padding: 0 50px;
+    margin-top: 150px;
+    color: #fff;
+ }
+ .main-hero_title {
+    font-size: 50px;
+    line-height: 150%;
+ }
+ .main-hero_text {
+    width: 340px;
+    font-size: 18px;
+    line-height: 140%;
+ }
+ .main-hero_btn {
+    display: inline-block;
+    color: #fff;
+    background-color: red;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ .main-hero_btn:hover{
+    background-color: rgb(202, 5, 5);
+ }
+ .main-hero_btn i {
+    background-color: transparent
+ }
+ @media screen and (max-width: 1024px) {
+    .main-hero {
+       margin-top: 120px;
+    }
+    .main-hero_title {
+       font-size: 40px;
+       line-height: 142%;
+    }
+    .main-hero_text {
+       width: 320px;
+    }
+    .main-hero_btn {
+       padding: 10px 20px;
+       margin-top: 20px;
+    }
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .main-hero {
+       width: 100%;
+       padding: 0 30px;
+       margin-top: 70px;
+       color: #fff;
+    }
+    .main-hero_title {
+       font-size: 30px;
+       line-height: 140%;
+    }
+    .main-hero_text {
+       width: 50%;
+       font-size: 16px;
+       line-height: 136%;
+    }
+    .main-hero_btn {
+       padding: 7px 16px;
+       margin-top: 20px;
+    }
+ }
+ 
+ @media screen and (max-width: 576px) {
+    .main-hero {
+       width: 100%;
+       padding: 0 10px;
+       margin-top: 50px;
+    }
+    .main-hero_title {
+       font-size: 20px;
+       line-height: 130%;
+       margin-bottom: 10px;
+    }
+    .main-hero_text {
+       width: 70%;
+       font-size: 16px;
+       line-height: 110%;
+    }
+    .main-hero_btn {
+       padding: 8px;
+       margin-top: 20px;
+       font-size: 12px;
+    }
+ }
+ 
